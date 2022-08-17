@@ -14,10 +14,12 @@ int Method_AStepB(int numberA, int numberB)
     return result;
 }
 
-Console.Write("Введите число A: ");
+Console.Write("Введите небольшое целое число A: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число B: ");
+Console.Write("Введите небольшое целое число B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
 int answer = Method_AStepB(numberA, numberB);
-Console.WriteLine($"Ответ: Число {numberA} в степени {numberB} равна {answer}");
+Console.WriteLine($"Ответ: Число {numberA} в степени {numberB} равно {answer}");
+
+
