@@ -12,9 +12,9 @@ int absol = Math.Abs(number);
 
 while (absol > 0)
 {
-int num = absol % 10;
-absol = absol / 10;
-sum = sum + num;
+    int num = absol % 10;
+    absol = absol / 10;
+    sum = sum + num;
 }
 Console.WriteLine("Сумма всех цифр в данном числе равна: " + sum);
 
