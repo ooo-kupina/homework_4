@@ -7,9 +7,9 @@ void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
-    while (index < 9)
+    while (index < 8)
     {
-        collection[index] = new Random().Next(0, 100);
+        collection[index] = new Random().Next(-100, 100);
         index++;
     }
 }
@@ -28,7 +28,7 @@ void PrintArray(int[] col)
     Console.Write("]");
 }
 
-int[] array = new int[9];
+int[] array = new int[8];
 
 FillArray(array);
 PrintArray(array);
